@@ -11,7 +11,7 @@ class Customer extends CI_Controller{
 	}
 
 	public function index(){
-		$this->data['title'] = 'Data Customer';
+		$this->data['title'] = 'Data Pembeli';
 		$this->data['all_customer'] = $this->m_customer->lihat();
 		$this->data['no'] = 1;
 
