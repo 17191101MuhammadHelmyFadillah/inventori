@@ -8,7 +8,7 @@ class Pengeluaran extends CI_Controller{
 		date_default_timezone_set('Asia/Jakarta');
 		$this->data['aktif'] = 'pengeluaran';
 		$this->load->model('M_barang', 'm_barang');
-		$this->load->model('M_customer', 'm_customer');
+		$this->load->model('M_Pembeli', 'm_Pembeli');
 		$this->load->model('M_pengeluaran', 'm_pengeluaran');
 		$this->load->model('M_detail_keluar', 'm_detail_keluar');
 	}
